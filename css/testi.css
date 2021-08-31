@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 3em !important;
+  }
+}
+
+.testimonals {
+  margin-top: 64px !important;
+  margin-bottom: 128px !important;
+  overflow: hidden;
+}
+
+.testimonals p.display-5 {
+  font-family: 'Teko', sans-serif;
+}
+
+.opinion {
+  color: #231E24;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.author {
+  margin-top: 16px;
+  font-style: italic;
+  color: #999999;
+}
+
+.testimonals .col-md-12 {
+  background-color: #F7F7F8;
+  padding: 32px;
+  border-left: 16px solid #fff;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+}
+
+@media screen and (max-width: 992px) {
+  .testimonals .col-md-12 {
+    margin-top: 24px;
+  }
+}
+
+.testimonals .col-md-12 div {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+
+.testimonals .img-fluid {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.testimonals .img-fluid:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+/*# sourceMappingURL=testi.css.map */

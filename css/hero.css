@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 992px) {
+  p.display-5 {
+    font-size: 3.6em !important;
+  }
+}
+
+.row.hero {
+  margin-top: 192px;
+}
+
+@media (max-width: 768px) {
+  .row.hero {
+    margin-top: 64px;
+  }
+}
+
+.hero-images {
+  position: relative;
+}
+
+.hero-images div {
+  position: absolute;
+}
+
+.hero-hammer img {
+  width: 90%;
+  position: relative;
+  top: -12em;
+}
+
+.hero-header p {
+  color: #231E24;
+  font-size: 4em;
+  font-family: 'Teko', sans-serif;
+}
+
+.hero-lead p {
+  color: #999999;
+  line-height: 32px;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-hammer {
+    display: none;
+  }
+  .row.hero {
+    margin-top: 64px;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

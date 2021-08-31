@@ -1,0 +1,32 @@
+@import './global.scss';
+.footer-main {
+    background: $sgray
+}
+.footer ul li {
+    margin-right: $space1;
+    padding: $space1;
+    transition: all .3s ease;
+}
+.footer ul li:hover {
+    background-color: $orange;
+    transform: skew(-20deg)
+}
+.footer ul li:hover a{
+    color: #fff;
+    display: block;
+    transform: skew(20deg);
+}
+.footer ul li a {
+    color: $orange;
+}
+
+.footer ul {
+    @media (max-width:768px) {
+        display: block !important;
+        line-height: $space4;
+    }
+}
+.footer {
+    padding-top: $space5;
+    padding-bottom: $space5;
+}

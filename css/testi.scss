@@ -1,0 +1,38 @@
+@import './global.scss';
+.testimonals {
+    margin-top: $space5 !important;
+    margin-bottom: $space5 *2 !important;
+    overflow: hidden;
+}
+.testimonals p.display-5 {
+    font-family: 'Teko', sans-serif ;
+}
+.opinion {
+    color: $black;
+    font-weight: 600;
+    line-height: $space3 + 8px;
+}
+.author {
+    margin-top: $space2;
+    font-style: italic;
+    color: $fgray;
+}
+.testimonals .col-md-12{
+    background-color: $sgray;
+    padding: $space4;
+    border-left: 16px solid #fff;
+    //box-shadow: 0px 12px 12px #7968684d;
+    transform: skew(-20deg);
+    @media screen and (max-width: 992px) {
+        margin-top: $space3;
+    }
+}
+.testimonals .col-md-12 div {
+    transform: skew(20deg);
+}
+.testimonals .img-fluid {
+    transition: all .3s ease;
+}
+.testimonals .img-fluid:hover {
+    transform: scale(1.08);
+}

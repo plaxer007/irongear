@@ -1,0 +1,38 @@
+@import './global.scss';
+.row.hero {
+    margin-top: $space5 * 3;
+    @media (max-width: 768px) {
+        margin-top: $space5;
+    }
+}
+.hero-images {
+    position: relative;
+
+}
+.hero-images div {
+    position: absolute;
+}
+.hero-hammer img{
+    width: 90%;
+    position: relative;
+    top: -12em;
+}
+.hero-header p {
+    color: $black;
+    font-size: 4em;
+    font-family: 'Teko', sans-serif;
+}
+.hero-lead p {
+    color: $fgray;
+    line-height: $space4;
+    margin-bottom: $space4;
+    font-size: $space2;
+}
+@media screen and(max-width: 992px) {
+    .hero-hammer {
+        display: none;
+    }
+    .row.hero {
+        margin-top: $space5;
+    }
+}

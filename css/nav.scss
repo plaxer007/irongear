@@ -1,0 +1,30 @@
+@import './global.scss';
+.navbar {
+    margin-top: $space5 ;
+    position: relative;
+}
+.navbar a {
+    color: $orange;
+}
+
+.navbar li a{
+    @media (min-width: 992px) {
+        
+        margin-left: $space5 - 8;
+    }
+    color: $fgray !important;
+}
+
+.hero-bg img{
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100%;
+}
+.hero-bg {
+    position: absolute;
+    width:100%;
+    top:0;
+    right: 0;
+    height: 100%;
+}

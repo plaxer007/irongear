@@ -1,0 +1,57 @@
+@import './global.scss';
+.slider .col {
+    width: 100%;
+    //height: 200px;
+    margin: $space5;
+    position: relative;
+    left:0;
+    right:0;
+    transition: all .5s ease-in-out;
+}
+.single-slide img{
+    transition: all .5s ease-in-out;
+}
+.slider {
+    overflow: hidden;
+    margin-top: $space5 * 5 !important;
+    z-index: 999;
+    position: relative;
+    @media (max-width:992px) {
+        display: none !important;
+    }
+}
+.slider-main {
+    display: flex;
+    width: 5000px;
+    overflow: hidden;
+}
+
+.slider p:first-child {
+    font-family: 'Teko', sans-serif;
+}
+.top-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+}
+.buttons div {
+    margin: 20px;
+}
+.buttons div:hover {
+    background-color:$orange;
+    transform: skew(-20deg);
+}
+.buttons div:hover img {
+    transform: skew(20deg);
+}
+.carousel {
+    @media (min-width:992px) {
+        display: none;
+    }
+    width:100%;
+    margin-top: $space5 *2;
+}
+
+
