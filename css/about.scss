@@ -1,0 +1,39 @@
+@import './global.scss';
+.about-us {
+    background-image: url('../imgs/about-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width:100%;
+    color: $sgray;
+    @media (max-width: 992px) {
+        padding: $space3;
+        align-items: flex-start;
+        background-size: cover;
+    }
+}
+.about-main {
+    position: relative;
+    overflow: hidden;
+}
+.image-vid {
+    position: relative;
+    left:10%;
+    top:0px;
+}
+.image-vid img {
+    width: 90%;
+}
+.about-lead {
+    margin-top: $space4;
+}
+.about-lead div {
+    @media (max-width:768px) {
+        padding: $space2 !important;
+        margin: 0 !important;
+    }
+}
+.about-lead p {
+    color: $fgray;
+    line-height: 32px;
+}

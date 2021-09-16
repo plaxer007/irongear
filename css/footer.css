@@ -21,9 +21,9 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width: 768px) {
-  .display-5 {
-    font-size: 3em !important;
+@media (max-width: 992px) {
+  p.display-5 {
+    font-size: 3.6em !important;
   }
 }
 
@@ -52,18 +52,39 @@ a {
 }
 
 .footer ul li a {
-  color: #F5493D;
+  color: #231E24;
+}
+
+.social-icon-footer li {
+  margin-right: 16px;
+  position: relative;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  top: 0px;
+}
+
+.social-icon-footer li:hover {
+  top: 10px;
 }
 
 @media (max-width: 768px) {
   .footer ul {
     display: block !important;
     line-height: 32px;
+    text-align: center;
+    padding: 0;
   }
 }
 
 .footer {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+@media (max-width: 768px) {
+  .img-footer {
+    text-align: center;
+    margin-bottom: 32px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

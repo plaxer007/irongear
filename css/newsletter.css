@@ -21,27 +21,84 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   p.display-5 {
-    font-size: 3.3em !important;
+    font-size: 3.6em !important;
   }
 }
 
+form {
+  position: relative;
+  width: 40%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 80%;
+  }
+}
+
+.newsletter button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .news-lead {
-  font-weight: 600;
+  font-weight: 400;
   color: #999999;
   margin-top: 32px;
-  width: 50%;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 32px;
 }
 
 #mail {
-  width: 30%;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
   #mail {
-    width: 60%;
+    width: 80%;
   }
+}
+
+.teko {
+  font-family: "Teko", sans-serif;
+}
+
+#mail {
+  background-color: #F7F7F8;
+  border: none;
+  padding: 16px 24px !important;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+}
+
+#mail::-webkit-input-placeholder {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+
+#mail:-ms-input-placeholder {
+  transform: skew(20deg);
+}
+
+#mail::-ms-input-placeholder {
+  transform: skew(20deg);
+}
+
+#mail::placeholder {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
 }
 
 @media (max-width: 992px) {

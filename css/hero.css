@@ -27,6 +27,12 @@ a {
   }
 }
 
+.lorem .row .col {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F5493D;
+}
+
 .row.hero {
   margin-top: 192px;
 }

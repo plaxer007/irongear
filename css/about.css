@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 992px) {
+  p.display-5 {
+    font-size: 3.6em !important;
+  }
+}
+
+.lorem .row .col {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F5493D;
+}
+
+.about-us {
+  background-image: url("../imgs/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  color: #F7F7F8;
+}
+
+@media (max-width: 992px) {
+  .about-us {
+    padding: 24px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-size: cover;
+  }
+}
+
+.about-main {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-vid {
+  position: relative;
+  left: 10%;
+  top: 0px;
+}
+
+.image-vid img {
+  width: 90%;
+}
+
+.about-lead {
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .about-lead div {
+    padding: 16px !important;
+    margin: 0 !important;
+  }
+}
+
+.about-lead p {
+  color: #999999;
+  line-height: 32px;
+}
+/*# sourceMappingURL=about.css.map */

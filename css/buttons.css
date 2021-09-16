@@ -21,10 +21,16 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width: 768px) {
-  .display-5 {
-    font-size: 3em !important;
+@media (max-width: 992px) {
+  p.display-5 {
+    font-size: 3.6em !important;
   }
+}
+
+.lorem .row .col {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F5493D;
 }
 
 .hero-btn {

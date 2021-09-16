@@ -17,16 +17,33 @@
     transform: skew(20deg);
 }
 .footer ul li a {
-    color: $orange;
+    color: $black;
 }
-
+.social-icon-footer li {
+    margin-right: $space2;
+    position: relative;
+    transition: all .4s ease;
+    top:0px;
+}
+.social-icon-footer li:hover {
+    top: 10px
+}
 .footer ul {
     @media (max-width:768px) {
         display: block !important;
         line-height: $space4;
+        text-align: center;
+        padding: 0;
     }
 }
 .footer {
     padding-top: $space5;
     padding-bottom: $space5;
+}
+
+@media (max-width:768px) {
+    .img-footer {
+        text-align: center;
+        margin-bottom: $space4;
+    }
 }

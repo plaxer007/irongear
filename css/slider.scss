@@ -38,6 +38,7 @@
 }
 .buttons div {
     margin: 20px;
+    transition: all .2s ease;
 }
 .buttons div:hover {
     background-color:$orange;

@@ -1,15 +1,46 @@
 @import './global.scss';
+form {
+    position: relative;
+    width: 40%;
+    margin: auto;
+    @media (max-width:992px){
+        width:80%
+    }
+    @media (max-width:768px){
+        width:80%
+    }
+}
+.newsletter button {
+    position: absolute;
+    right: 0;
+    top:0
+}
 .news-lead {
-    font-weight: 600;
+    font-weight: 400;
     color: $fgray;
     margin-top: $space4;
-    width: 50%;
+    width: 70%;
+    font-family: $roboto;
+    text-align: center;
+    line-height: $space4;
 }
 #mail {
-    width: 30%;
+    width: 100%;
     @media (max-width:768px){
-        width:60%
+        width:80%
     }
+}
+.teko {
+    font-family: $teko;
+}
+#mail {
+    background-color: $sgray;
+    border: none;
+    padding: $space2 $space3 !important;
+    transform: skew(-20deg);
+}
+#mail::placeholder {
+    transform: skew(20deg);
 }
 @media (max-width:992px) {
     .display-6{
